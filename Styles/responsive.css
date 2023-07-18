@@ -1,0 +1,16 @@
+/* responsive for mobile device */
+
+@media screen and (max-width:426px){
+    .logo-container{
+        padding: 10px;
+    }
+    .nav-container
+    {
+        flex-direction: column;
+        
+    }
+    .nav-menu-container{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
