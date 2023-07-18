@@ -1,16 +1,51 @@
-/* responsive for mobile device */
+/* for mobile device */
 
-@media screen and (max-width:426px){
-    .logo-container{
+@media screen and (max-width:426px) {
+
+    /* nav style start */
+    .logo-container {
         padding: 10px;
     }
-    .nav-container
-    {
+
+    .nav-container {
         flex-direction: column;
-        
+
     }
-    .nav-menu-container{
+
+    .nav-menu-container {
         flex-direction: column;
         gap: 30px;
+    }
+
+    /* nav style end */
+
+    /* banner style start */
+    .banner-container {
+        flex-direction: column-reverse;
+    }
+
+    .banner-text {
+        width: 100%;
+    }
+
+    .banner-img {
+        width: 100%;
+    }
+
+    /* banner style end */
+}
+
+
+
+/* for tablet device */
+
+@media screen and (min-width:426px) and (max-width:769px) {
+    .logo-container {
+        padding: 10px;
+    }
+
+    .banner-text,
+    .banner-img {
+        width: 100%;
     }
 }
