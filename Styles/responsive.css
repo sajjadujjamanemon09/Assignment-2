@@ -26,6 +26,9 @@
 
     .banner-text {
         width: 100%;
+        padding-left: 15px;
+        padding-bottom: 70px;
+        text-align: center;
     }
 
     .banner-img {
@@ -33,6 +36,12 @@
     }
 
     /* banner style end */
+
+    /* game style start */
+    .online-game-grid-container {
+        grid-template-columns: 1fr;
+        width: 70%;
+    }
 }
 
 
@@ -40,12 +49,25 @@
 /* for tablet device */
 
 @media screen and (min-width:426px) and (max-width:769px) {
+
+    /* nav style */
     .logo-container {
         padding: 10px;
     }
 
-    .banner-text,
+    /* banner style */
+    .banner-text {
+        width: 100%;
+        padding-left: 30px;
+    }
+
     .banner-img {
         width: 100%;
+    }
+
+    /* game style */
+    .online-game-grid-container {
+        grid-template-columns: repeat(2,1fr);
+        width: 70%;
     }
 }
