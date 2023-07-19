@@ -78,6 +78,23 @@
         flex-basis: 50px;
     }
 
+    /* footer section */
+
+    .footer-support a {
+        text-decoration: none;
+        color: #FFF;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    
+    .footer-icon .fa-brands {
+        padding-right: 40px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 25px;
+    }
+    
+
 }
 
 
