@@ -69,6 +69,15 @@
         height: 190px;
     }
 
+    /* menu container style */
+    .menu-container{
+        min-height: 400px;
+        max-width: 100%;
+    }
+    .menus{
+        flex-basis: 50px;
+    }
+
 }
 
 
