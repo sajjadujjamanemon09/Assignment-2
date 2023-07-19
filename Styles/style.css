@@ -209,21 +209,36 @@ body {
 /* play games title start */
 
 .play-games-container{
-    border: 2px solid red;
     max-width: 1280px;
     margin: 50px auto 0;
     display: flex;
-    /* align-items: center; */
+    align-items: center;
 }
 .play-games-img{
-    border: 1px solid black;
     width: 60%;
+    margin-top: 100px;
 }
 .play-games-img img{
-    width: 70%
+    width: 530px;
+    height: 430px;
+    padding-left: 100px;
+}
+.play-games-footer-img{
+    position: relative;
+    bottom: 150px;
+    padding-left: 300px;
+
+}
+.play-games-footer-img img{
+    width: 320px;
+    height: 230px;
 }
 
+
 .play-games-title{
-    border: 1px solid blue;
-    text-align: center;
+    text-align: left;
+    padding-left: 150px;
+    padding-right: 150px;
 }
+
+/* play games title end */
